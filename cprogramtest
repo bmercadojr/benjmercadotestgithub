@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+char char_USER[15];
+char char_PASS[15];
+char repo_name[20];
+printf("Welcome to Github! Create your own repository! \n");
+printf("USERNAME:");
+scanf("%s",char_USER);
+printf("PASSWORD:");
+scanf("%s",char_PASS);
+printf("REPOSITORY NAME:");
+scanf("%s",repo_name);
+printf("COMPLETE!\nUSERANAME:%s\nPASSWORD:%s\nREPOSITORY NAME:%s",char_USER,char_PASS,repo_name);
+}
